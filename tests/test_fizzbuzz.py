@@ -1,7 +1,11 @@
 import pytest
+from fizzbuzz.fizzbuzz import fizzbuzz
 
-# - Can I call FizzBuzz
 # - Get "1" when pass in 1
+def test_return1WhenGiven1():
+    returnVal = "1"
+    assert returnVal
+
 # - Get "2" when pass in 2
 # - Get "Fizz" when pass in 3
 # - Get "Buzz" when pass in 5
